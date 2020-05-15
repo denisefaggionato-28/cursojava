@@ -18,6 +18,7 @@ public class DataCalendário {
 		int month = 1 + cal.get(Calendar.MONTH);
 		System.out.println("Minuts: " + minutes);
 		System.out.println("Month: " + month);
+		System.out.println("Bom dia");
 
 	}
 
