@@ -1,11 +1,7 @@
 package application;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import entities.AccountHeranca;
 import entities.BusinessAccount;
-import entities.EmployeesPoliformismo;
 import entities.SavingsAccount;
 
 public class ProgramHeranca {
@@ -27,7 +23,7 @@ public class ProgramHeranca {
 
 		if (acc3 instanceof BusinessAccount) {
 			BusinessAccount acc5 = (BusinessAccount) acc3;
-			acc4.loan(200.0);
+			acc5.loan(200.0);
 			System.out.println("Loan! ");
 
 		}

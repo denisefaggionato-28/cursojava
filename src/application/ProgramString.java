@@ -28,8 +28,8 @@ public class ProgramString {
 				, "Traveling"
 				,"I'm going to visit this..."
 				, 4);
-		p2.addComment(c1);
-		p2.addComment(c2);
+		p2.addComment(c3);
+		p2.addComment(c4);
 		System.out.println(p2);
 		
 
